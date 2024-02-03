@@ -185,3 +185,6 @@ margin-bottom: 9.6rem;
   align-items: center;
 }
 
+strong {
+  font-weight: 500;
+}
