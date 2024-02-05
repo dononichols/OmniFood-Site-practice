@@ -185,6 +185,8 @@ margin-bottom: 9.6rem;
   align-items: center;
 }
 
+/* HELPER CLASSES */
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
@@ -207,6 +209,10 @@ margin-bottom: 9.6rem;
 .link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent !important;
+}
+
+.center-text {
+  text-align: center;
 }
 
 strong {
