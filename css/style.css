@@ -404,9 +404,14 @@ figure p {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.gallery-item {
+  margin: 0;
+}
+
 .gallery-item img {
   display: block;
   /* margin: 0; */
+  width: 100%;
 }
 
 
