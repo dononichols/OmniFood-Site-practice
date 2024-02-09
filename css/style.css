@@ -422,6 +422,11 @@ figure p {
   display: block;
   /* margin: 0; */
   width: 100%;
+  /* transition: all 0.4s; */
+}
+
+.gallery-item:hover {
+  transform: scale(1);
 }
 
 
