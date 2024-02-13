@@ -448,6 +448,7 @@ margin-bottom: 3.2rem;
 
 .plan-price span {
   font-size: 3rem;
+  color: #6F6F6f;
   font-weight: 500;
   margin-right: .8rem;
 }
@@ -455,6 +456,11 @@ margin-bottom: 3.2rem;
 .plan-text {
 font-size: 1.6rem;
 line-height: 1.6;
+}
+
+.plan-sign-up {
+  text-align: center;
+  margin-top: 4.8rem;
 }
 
 
