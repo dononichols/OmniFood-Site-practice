@@ -428,6 +428,10 @@ padding: 4.8rem;
 width: 75%;
 }
 
+.pricing-plan--starter {
+  justify-self: end;
+}
+
 .plan-header {
   text-align: center;
   margin-bottom: 4.8rem;
