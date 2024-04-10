@@ -170,6 +170,16 @@ margin-bottom: 9.6rem;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
   
+  /* margin-bottom: 9.6rem; */
+}
+
+/* try to understand this a little better */
+/* .grid:last-child {
+  margin-bottom: 0;
+} */
+
+.grid:not(:last-child){
+  margin-bottom: 9.6rem;
 }
 
 .grid--2-cols {
