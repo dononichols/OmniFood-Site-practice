@@ -136,6 +136,11 @@ transition: all .3s;
   padding: 1.2rem;
 }
 
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
 
 /* headings */
 .heading-primary {
@@ -214,7 +219,15 @@ margin-bottom: 9.6rem;
   align-items: center;
 }
 
-/* HELPER CLASSES */
+/* change focus styling */
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(122, 146, 240, 0.662);
+}
+
+/* HELPER / SETTINGS CLASSES */
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
