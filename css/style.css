@@ -628,11 +628,33 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 
 .address-col {}
 
-.footer-heading {}
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
 
 .contacts {}
 
 /*  */
 .nav-col {}
 
-.footer-nav {}
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+text-decoration: none;
+font-size: 1.6rem;
+color: #888;
+transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}

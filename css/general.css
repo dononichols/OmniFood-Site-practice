@@ -32,6 +32,8 @@ Paragraph default: 1.6
 #6F6F6f (lightest grey allowed on #fdf2e9)
  #555
  #333
+ #888
+ #767676 (lightest grey allowed on #fff)
 
  -gradients: 
  linear-gradient(to right bottom, #eb984e,#e67e22);
